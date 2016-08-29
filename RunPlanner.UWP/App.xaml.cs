@@ -30,6 +30,7 @@ namespace RunPlanner.UWP
         /// </summary>
         public App()
         {
+            Microsoft.HockeyApp.HockeyClient.Current.Configure("d2bf765381a944dcbf7f4d62ffacda07");
             this.InitializeComponent();
             this.Suspending += OnSuspending;
         }
@@ -48,7 +49,7 @@ namespace RunPlanner.UWP
                 this.DebugSettings.EnableFrameRateCounter = true;
             }
 #endif
-
+            Windows.Services.Maps.MapService.ServiceToken = "mktxQ35VIQydIbAlTErF~pevEsnQrd9sxpm-p-nvLeQ~AhdqOejvLhjU8eXwgkm-_hMN8cm3e65kPA2CGBBa4zeNdXANbz1hW7_UcXKp0puz";
             Frame rootFrame = Window.Current.Content as Frame;
 
             // Do not repeat app initialization when the Window already has content,

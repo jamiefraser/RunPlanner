@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Roots >
+  <Roots.Interfaces>
+    <RootInterface FullName="Windows.UI.Xaml.Data.IValueConverter" />
+  </Roots.Interfaces>
+  <Roots.PropertyPathNames>
+    <RootPropertyPathName Name="Pins" />
+    <RootPropertyPathName Name="DataContext" />
+    <RootPropertyPathName Name="RemovePointCommand" />
+  </Roots.PropertyPathNames>
+  <Roots.RootTypes>
+    <RootType FullName="Windows.UI.Xaml.Application">
+      <RootProperty Name="RequestedTheme" />
+    </RootType>
+    <RootType FullName="MvvmCross.WindowsUWP.Views.MvxWindowsPage">
+      <RootProperty Name="Resources" />
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="RunPlanner.UWP.ValueConverters.CoordinateConverter" />
+    <RootType FullName="RunPlanner.UWP.ValueConverters.RunPointsToGeoPath" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Image">
+      <RootProperty Name="Source" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Maps.MapControl">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="CanDrag" />
+      <RootProperty Name="BusinessLandmarksVisible" />
+      <RootProperty Name="LandmarksVisible" />
+      <RootProperty Name="TransitFeaturesVisible" />
+      <RootProperty Name="IsRightTapEnabled" />
+      <RootProperty Name="IsHoldingEnabled" />
+      <RootProperty Name="IsHitTestVisible" />
+      <RootProperty Name="TiltInteractionMode" />
+      <RootProperty Name="ZoomInteractionMode" />
+      <RootProperty Name="PanInteractionMode" />
+      <RootProperty Name="RotateInteractionMode" />
+      <RootProperty Name="Children" />
+      <RootEvent Name="RightTapped" />
+      <RootEvent Name="MapHolding" />
+      <RootMethod Name="GetLocation" />
+      <RootMethod Name="SetLocation" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Maps.MapItemsControl">
+      <RootProperty Name="ItemsSource" />
+      <RootProperty Name="ItemTemplate" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Data.Binding">
+      <RootProperty Name="Converter" />
+      <RootProperty Name="ElementName" />
+      <RootProperty Name="Path" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.DataTemplate">
+      <RootProperty Name="Template" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.Interactivity.Interaction">
+      <RootMethod Name="GetBehaviors" />
+      <RootMethod Name="SetBehaviors" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.StaticResourceExtension" />
+    <RootType FullName="Microsoft.Xaml.Interactions.Core.EventTriggerBehavior">
+      <RootProperty Name="EventName" />
+      <RootProperty Name="Actions" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.Interactions.Core.InvokeCommandAction">
+      <RootProperty Name="Command" />
+      <RootProperty Name="CommandParameter" />
+    </RootType>
+    <RootType FullName="RunPlanner.UWP.Views.FirstView" />
+  </Roots.RootTypes>
+</Roots>

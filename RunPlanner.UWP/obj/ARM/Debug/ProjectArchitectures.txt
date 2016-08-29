@@ -1,0 +1,2 @@
+C:\source\RunPlanner\RunPlanner.Core\RunPlanner.Core.csproj;neutral
+C:\source\RunPlanner\RunPlanner.UWP\RunPlanner.UWP.csproj;arm

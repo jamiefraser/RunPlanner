@@ -1,0 +1,7 @@
+﻿[ResourceMetadata]
+"ResourceId"			"filemap.language-fr"
+"ResourceDimensions"		"language-fr-ca"
+
+[Files]
+"C:\source\RunPlanner\RunPlanner.UWP\obj\ARM\Debug\filemap.language-fr.pri"			"resources.pri"
+"C:\source\RunPlanner\RunPlanner.UWP\obj\ARM\Debug\PackageLayout\fr-CA\RunPlanner.Core.resources.dll"			"fr-CA\RunPlanner.Core.resources.dll"

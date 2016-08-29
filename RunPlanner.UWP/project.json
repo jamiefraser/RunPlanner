@@ -1,7 +1,10 @@
 ﻿{
   "dependencies": {
+    "HockeySDK.UWP": "4.0.0",
     "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0",
+    "Microsoft.Xaml.Behaviors.Uwp.Managed": "1.1.0",
     "MvvmCross": "4.2.3",
+    "MvvmCross.Plugin.Location": "4.2.3",
     "MvvmCross.StarterPack": "4.2.3"
   },
   "frameworks": {

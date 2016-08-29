@@ -1,0 +1,6 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.language-de"
+"ResourceDimensions"		"language-de-de"
+
+[Files]
+"C:\source\RunPlanner\RunPlanner.UWP\obj\ARM\Debug\split.language-de.pri"			"resources.pri"

@@ -1,0 +1,15 @@
+C:\source\RunPlanner\RunPlanner.Core\bin\Debug\RunPlanner.Core.dll
+C:\source\RunPlanner\RunPlanner.Core\bin\Debug\RunPlanner.Core.pdb
+C:\source\RunPlanner\RunPlanner.Core\bin\Debug\fr-CA\RunPlanner.Core.resources.dll
+C:\source\RunPlanner\RunPlanner.Core\bin\Debug\MvvmCross.Binding.dll
+C:\source\RunPlanner\RunPlanner.Core\bin\Debug\MvvmCross.Core.dll
+C:\source\RunPlanner\RunPlanner.Core\bin\Debug\MvvmCross.Localization.dll
+C:\source\RunPlanner\RunPlanner.Core\bin\Debug\MvvmCross.Platform.dll
+C:\source\RunPlanner\RunPlanner.Core\bin\Debug\MvvmCross.Plugins.Location.dll
+C:\source\RunPlanner\RunPlanner.Core\obj\Debug\RunPlanner.Core.Properties.Resources.resources
+C:\source\RunPlanner\RunPlanner.Core\obj\Debug\RunPlanner.Core.Properties.Resources.fr-CA.resources
+C:\source\RunPlanner\RunPlanner.Core\obj\Debug\RunPlanner.Core.csproj.GenerateResource.Cache
+C:\source\RunPlanner\RunPlanner.Core\obj\Debug\fr-CA\RunPlanner.Core.resources.dll
+C:\source\RunPlanner\RunPlanner.Core\obj\Debug\RunPlanner.Core.dll
+C:\source\RunPlanner\RunPlanner.Core\obj\Debug\RunPlanner.Core.pdb
+C:\source\RunPlanner\RunPlanner.Core\obj\Debug\RunPlanner.Core.csprojResolveAssemblyReference.cache

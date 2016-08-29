@@ -1,0 +1,2 @@
+MainPackage=C:\source\RunPlanner\RunPlanner.UWP\bin\x64\Debug\RunPlanner.UWP_1.1.0.0_x64_Debug.appx
+SymbolPackage=C:\source\RunPlanner\RunPlanner.UWP\AppPackages\RunPlanner.UWP_1.1.0.0_Debug_Test\RunPlanner.UWP_1.1.0.0_x64_Debug.appxsym

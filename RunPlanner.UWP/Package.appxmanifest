@@ -1,49 +1,29 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-
-<Package
-  xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
-  xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest"
-  xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
-  IgnorableNamespaces="uap mp">
-
-  <Identity
-    Name="39a58d0a-6b4d-4aa1-bf3f-43de6528c80c"
-    Publisher="CN=jfraser"
-    Version="1.0.0.0" />
-
-  <mp:PhoneIdentity PhoneProductId="39a58d0a-6b4d-4aa1-bf3f-43de6528c80c" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
-
+<Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" IgnorableNamespaces="uap mp">
+  <Identity Name="48019RelevantApps.TGHT" Publisher="CN=E1FBDB92-D514-47AF-9B34-1C53C1DD8197" Version="1.1.0.0" />
+  <mp:PhoneIdentity PhoneProductId="39a58d0a-6b4d-4aa1-bf3f-43de6528c80c" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
-    <DisplayName>RunPlanner.UWP</DisplayName>
-    <PublisherDisplayName>jfraser</PublisherDisplayName>
+    <DisplayName>TGHT</DisplayName>
+    <PublisherDisplayName>Relevant Apps</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
-
   <Dependencies>
     <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.0.0" MaxVersionTested="10.0.0.0" />
   </Dependencies>
-
   <Resources>
-    <Resource Language="x-generate"/>
+    <Resource Language="x-generate" />
   </Resources>
-
   <Applications>
-    <Application Id="App"
-      Executable="$targetnametoken$.exe"
-      EntryPoint="RunPlanner.UWP.App">
-      <uap:VisualElements
-        DisplayName="RunPlanner.UWP"
-        Square150x150Logo="Assets\Square150x150Logo.png"
-        Square44x44Logo="Assets\Square44x44Logo.png"
-        Description="RunPlanner.UWP"
-        BackgroundColor="transparent">
-        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png"/>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="RunPlanner.UWP.App">
+      <uap:VisualElements DisplayName="tght" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="Tighten up your running routes with TGHT.  Keeping your running routine varied can be tough - plan ahead by mapping different routes while gaining insight into overall distance.  Great for when you're travelling and want to make the most of your time away.  Share your favorite routes with the community and help each other." BackgroundColor="transparent">
+        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" Square71x71Logo="Assets\tght_icon_284.png">
+        </uap:DefaultTile>
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
       </uap:VisualElements>
     </Application>
   </Applications>
-
   <Capabilities>
     <Capability Name="internetClient" />
+    <DeviceCapability Name="location" />
   </Capabilities>
 </Package>

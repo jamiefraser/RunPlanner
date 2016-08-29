@@ -3,6 +3,14 @@
   "version": 1,
   "targets": {
     "UAP,Version=v10.0": {
+      "HockeySDK.UWP/4.0.0": {
+        "compile": {
+          "lib/uap10.0/Microsoft.HockeyApp.Kit.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Microsoft.HockeyApp.Kit.dll": {}
+        }
+      },
       "Microsoft.CSharp/4.0.0": {
         "dependencies": {
           "System.Collections": "4.0.10",
@@ -255,6 +263,16 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
+      "Microsoft.Xaml.Behaviors.Uwp.Managed/1.1.0": {
+        "compile": {
+          "lib/uap10.0/Microsoft.Xaml.Interactions.dll": {},
+          "lib/uap10.0/Microsoft.Xaml.Interactivity.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Microsoft.Xaml.Interactions.dll": {},
+          "lib/uap10.0/Microsoft.Xaml.Interactivity.dll": {}
+        }
+      },
       "MvvmCross/4.2.3": {
         "dependencies": {
           "MvvmCross.Binding": "4.2.3",
@@ -295,6 +313,19 @@
         "runtime": {
           "lib/win81/MvvmCross.Platform.WindowsCommon.dll": {},
           "lib/win81/MvvmCross.Platform.dll": {}
+        }
+      },
+      "MvvmCross.Plugin.Location/4.2.3": {
+        "dependencies": {
+          "MvvmCross.Platform": "4.2.3"
+        },
+        "compile": {
+          "lib/win81/MvvmCross.Plugins.Location.WindowsCommon.dll": {},
+          "lib/win81/MvvmCross.Plugins.Location.dll": {}
+        },
+        "runtime": {
+          "lib/win81/MvvmCross.Plugins.Location.WindowsCommon.dll": {},
+          "lib/win81/MvvmCross.Plugins.Location.dll": {}
         }
       },
       "MvvmCross.StarterPack/4.2.3": {
@@ -1837,6 +1868,14 @@
       }
     },
     "UAP,Version=v10.0/win10-arm": {
+      "HockeySDK.UWP/4.0.0": {
+        "compile": {
+          "lib/uap10.0/Microsoft.HockeyApp.Kit.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Microsoft.HockeyApp.Kit.dll": {}
+        }
+      },
       "Microsoft.CSharp/4.0.0": {
         "dependencies": {
           "System.Collections": "4.0.10",
@@ -2082,6 +2121,16 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
+      "Microsoft.Xaml.Behaviors.Uwp.Managed/1.1.0": {
+        "compile": {
+          "lib/uap10.0/Microsoft.Xaml.Interactions.dll": {},
+          "lib/uap10.0/Microsoft.Xaml.Interactivity.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Microsoft.Xaml.Interactions.dll": {},
+          "lib/uap10.0/Microsoft.Xaml.Interactivity.dll": {}
+        }
+      },
       "MvvmCross/4.2.3": {
         "dependencies": {
           "MvvmCross.Binding": "4.2.3",
@@ -2122,6 +2171,19 @@
         "runtime": {
           "lib/win81/MvvmCross.Platform.WindowsCommon.dll": {},
           "lib/win81/MvvmCross.Platform.dll": {}
+        }
+      },
+      "MvvmCross.Plugin.Location/4.2.3": {
+        "dependencies": {
+          "MvvmCross.Platform": "4.2.3"
+        },
+        "compile": {
+          "lib/win81/MvvmCross.Plugins.Location.WindowsCommon.dll": {},
+          "lib/win81/MvvmCross.Plugins.Location.dll": {}
+        },
+        "runtime": {
+          "lib/win81/MvvmCross.Plugins.Location.WindowsCommon.dll": {},
+          "lib/win81/MvvmCross.Plugins.Location.dll": {}
         }
       },
       "MvvmCross.StarterPack/4.2.3": {
@@ -3524,6 +3586,14 @@
       }
     },
     "UAP,Version=v10.0/win10-arm-aot": {
+      "HockeySDK.UWP/4.0.0": {
+        "compile": {
+          "lib/uap10.0/Microsoft.HockeyApp.Kit.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Microsoft.HockeyApp.Kit.dll": {}
+        }
+      },
       "Microsoft.CSharp/4.0.0": {
         "dependencies": {
           "System.Collections": "4.0.10",
@@ -3755,6 +3825,16 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
+      "Microsoft.Xaml.Behaviors.Uwp.Managed/1.1.0": {
+        "compile": {
+          "lib/uap10.0/Microsoft.Xaml.Interactions.dll": {},
+          "lib/uap10.0/Microsoft.Xaml.Interactivity.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Microsoft.Xaml.Interactions.dll": {},
+          "lib/uap10.0/Microsoft.Xaml.Interactivity.dll": {}
+        }
+      },
       "MvvmCross/4.2.3": {
         "dependencies": {
           "MvvmCross.Binding": "4.2.3",
@@ -3795,6 +3875,19 @@
         "runtime": {
           "lib/win81/MvvmCross.Platform.WindowsCommon.dll": {},
           "lib/win81/MvvmCross.Platform.dll": {}
+        }
+      },
+      "MvvmCross.Plugin.Location/4.2.3": {
+        "dependencies": {
+          "MvvmCross.Platform": "4.2.3"
+        },
+        "compile": {
+          "lib/win81/MvvmCross.Plugins.Location.WindowsCommon.dll": {},
+          "lib/win81/MvvmCross.Plugins.Location.dll": {}
+        },
+        "runtime": {
+          "lib/win81/MvvmCross.Plugins.Location.WindowsCommon.dll": {},
+          "lib/win81/MvvmCross.Plugins.Location.dll": {}
         }
       },
       "MvvmCross.StarterPack/4.2.3": {
@@ -5175,6 +5268,14 @@
       }
     },
     "UAP,Version=v10.0/win10-x64": {
+      "HockeySDK.UWP/4.0.0": {
+        "compile": {
+          "lib/uap10.0/Microsoft.HockeyApp.Kit.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Microsoft.HockeyApp.Kit.dll": {}
+        }
+      },
       "Microsoft.CSharp/4.0.0": {
         "dependencies": {
           "System.Collections": "4.0.10",
@@ -5426,6 +5527,16 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
+      "Microsoft.Xaml.Behaviors.Uwp.Managed/1.1.0": {
+        "compile": {
+          "lib/uap10.0/Microsoft.Xaml.Interactions.dll": {},
+          "lib/uap10.0/Microsoft.Xaml.Interactivity.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Microsoft.Xaml.Interactions.dll": {},
+          "lib/uap10.0/Microsoft.Xaml.Interactivity.dll": {}
+        }
+      },
       "MvvmCross/4.2.3": {
         "dependencies": {
           "MvvmCross.Binding": "4.2.3",
@@ -5466,6 +5577,19 @@
         "runtime": {
           "lib/win81/MvvmCross.Platform.WindowsCommon.dll": {},
           "lib/win81/MvvmCross.Platform.dll": {}
+        }
+      },
+      "MvvmCross.Plugin.Location/4.2.3": {
+        "dependencies": {
+          "MvvmCross.Platform": "4.2.3"
+        },
+        "compile": {
+          "lib/win81/MvvmCross.Plugins.Location.WindowsCommon.dll": {},
+          "lib/win81/MvvmCross.Plugins.Location.dll": {}
+        },
+        "runtime": {
+          "lib/win81/MvvmCross.Plugins.Location.WindowsCommon.dll": {},
+          "lib/win81/MvvmCross.Plugins.Location.dll": {}
         }
       },
       "MvvmCross.StarterPack/4.2.3": {
@@ -6868,6 +6992,14 @@
       }
     },
     "UAP,Version=v10.0/win10-x64-aot": {
+      "HockeySDK.UWP/4.0.0": {
+        "compile": {
+          "lib/uap10.0/Microsoft.HockeyApp.Kit.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Microsoft.HockeyApp.Kit.dll": {}
+        }
+      },
       "Microsoft.CSharp/4.0.0": {
         "dependencies": {
           "System.Collections": "4.0.10",
@@ -7099,6 +7231,16 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
+      "Microsoft.Xaml.Behaviors.Uwp.Managed/1.1.0": {
+        "compile": {
+          "lib/uap10.0/Microsoft.Xaml.Interactions.dll": {},
+          "lib/uap10.0/Microsoft.Xaml.Interactivity.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Microsoft.Xaml.Interactions.dll": {},
+          "lib/uap10.0/Microsoft.Xaml.Interactivity.dll": {}
+        }
+      },
       "MvvmCross/4.2.3": {
         "dependencies": {
           "MvvmCross.Binding": "4.2.3",
@@ -7139,6 +7281,19 @@
         "runtime": {
           "lib/win81/MvvmCross.Platform.WindowsCommon.dll": {},
           "lib/win81/MvvmCross.Platform.dll": {}
+        }
+      },
+      "MvvmCross.Plugin.Location/4.2.3": {
+        "dependencies": {
+          "MvvmCross.Platform": "4.2.3"
+        },
+        "compile": {
+          "lib/win81/MvvmCross.Plugins.Location.WindowsCommon.dll": {},
+          "lib/win81/MvvmCross.Plugins.Location.dll": {}
+        },
+        "runtime": {
+          "lib/win81/MvvmCross.Plugins.Location.WindowsCommon.dll": {},
+          "lib/win81/MvvmCross.Plugins.Location.dll": {}
         }
       },
       "MvvmCross.StarterPack/4.2.3": {
@@ -8519,6 +8674,14 @@
       }
     },
     "UAP,Version=v10.0/win10-x86": {
+      "HockeySDK.UWP/4.0.0": {
+        "compile": {
+          "lib/uap10.0/Microsoft.HockeyApp.Kit.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Microsoft.HockeyApp.Kit.dll": {}
+        }
+      },
       "Microsoft.CSharp/4.0.0": {
         "dependencies": {
           "System.Collections": "4.0.10",
@@ -8770,6 +8933,16 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
+      "Microsoft.Xaml.Behaviors.Uwp.Managed/1.1.0": {
+        "compile": {
+          "lib/uap10.0/Microsoft.Xaml.Interactions.dll": {},
+          "lib/uap10.0/Microsoft.Xaml.Interactivity.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Microsoft.Xaml.Interactions.dll": {},
+          "lib/uap10.0/Microsoft.Xaml.Interactivity.dll": {}
+        }
+      },
       "MvvmCross/4.2.3": {
         "dependencies": {
           "MvvmCross.Binding": "4.2.3",
@@ -8810,6 +8983,19 @@
         "runtime": {
           "lib/win81/MvvmCross.Platform.WindowsCommon.dll": {},
           "lib/win81/MvvmCross.Platform.dll": {}
+        }
+      },
+      "MvvmCross.Plugin.Location/4.2.3": {
+        "dependencies": {
+          "MvvmCross.Platform": "4.2.3"
+        },
+        "compile": {
+          "lib/win81/MvvmCross.Plugins.Location.WindowsCommon.dll": {},
+          "lib/win81/MvvmCross.Plugins.Location.dll": {}
+        },
+        "runtime": {
+          "lib/win81/MvvmCross.Plugins.Location.WindowsCommon.dll": {},
+          "lib/win81/MvvmCross.Plugins.Location.dll": {}
         }
       },
       "MvvmCross.StarterPack/4.2.3": {
@@ -10212,6 +10398,14 @@
       }
     },
     "UAP,Version=v10.0/win10-x86-aot": {
+      "HockeySDK.UWP/4.0.0": {
+        "compile": {
+          "lib/uap10.0/Microsoft.HockeyApp.Kit.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Microsoft.HockeyApp.Kit.dll": {}
+        }
+      },
       "Microsoft.CSharp/4.0.0": {
         "dependencies": {
           "System.Collections": "4.0.10",
@@ -10443,6 +10637,16 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
+      "Microsoft.Xaml.Behaviors.Uwp.Managed/1.1.0": {
+        "compile": {
+          "lib/uap10.0/Microsoft.Xaml.Interactions.dll": {},
+          "lib/uap10.0/Microsoft.Xaml.Interactivity.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Microsoft.Xaml.Interactions.dll": {},
+          "lib/uap10.0/Microsoft.Xaml.Interactivity.dll": {}
+        }
+      },
       "MvvmCross/4.2.3": {
         "dependencies": {
           "MvvmCross.Binding": "4.2.3",
@@ -10483,6 +10687,19 @@
         "runtime": {
           "lib/win81/MvvmCross.Platform.WindowsCommon.dll": {},
           "lib/win81/MvvmCross.Platform.dll": {}
+        }
+      },
+      "MvvmCross.Plugin.Location/4.2.3": {
+        "dependencies": {
+          "MvvmCross.Platform": "4.2.3"
+        },
+        "compile": {
+          "lib/win81/MvvmCross.Plugins.Location.WindowsCommon.dll": {},
+          "lib/win81/MvvmCross.Plugins.Location.dll": {}
+        },
+        "runtime": {
+          "lib/win81/MvvmCross.Plugins.Location.WindowsCommon.dll": {},
+          "lib/win81/MvvmCross.Plugins.Location.dll": {}
         }
       },
       "MvvmCross.StarterPack/4.2.3": {
@@ -11864,6 +12081,19 @@
     }
   },
   "libraries": {
+    "HockeySDK.UWP/4.0.0": {
+      "sha512": "8073pxsE36oroVBg8RAUyxd8RSngh3A5n/5Tux+9WPU6vnrQZcroM1rE/E9oa3FpMO0MdZpAqepcIy54fzkbjA==",
+      "type": "package",
+      "files": [
+        "HockeySDK.UWP.4.0.0.nupkg.sha512",
+        "HockeySDK.UWP.nuspec",
+        "lib/uap10.0/Microsoft.HockeyApp.Kit.dll",
+        "lib/uap10.0/Microsoft.HockeyApp.Kit.dll.CodeAnalysisLog.xml",
+        "lib/uap10.0/Microsoft.HockeyApp.Kit.dll.lastcodeanalysissucceeded",
+        "lib/uap10.0/Microsoft.HockeyApp.Kit.pri",
+        "lib/uap10.0/Microsoft.HockeyApp.Kit/Properties/Microsoft.HockeyApp.Kit.rd.xml"
+      ]
+    },
     "Microsoft.CSharp/4.0.0": {
       "sha512": "oWqeKUxHXdK6dL2CFjgMcaBISbkk+AqEg+yvJHE4DElNzS4QaTsCflgkkqZwVlWby1Dg9zo9n+iCAMFefFdJ/A==",
       "type": "package",
@@ -12485,6 +12715,22 @@
         "ref/xamarinmac20/_._"
       ]
     },
+    "Microsoft.Xaml.Behaviors.Uwp.Managed/1.1.0": {
+      "sha512": "Qxe4fblviCn2oFf7C4ahCsZHC0GzRa7Tz5z+L1QUHUljY3Oj/TMoT1O0jJ+ru6RcJ9qS8yFw/jIvstg2dxxpGA==",
+      "type": "package",
+      "files": [
+        "Microsoft.Xaml.Behaviors.Uwp.Managed.1.1.0.nupkg.sha512",
+        "Microsoft.Xaml.Behaviors.Uwp.Managed.nuspec",
+        "lib/uap10.0/Design/Microsoft.Xaml.Interactions.Design.dll",
+        "lib/uap10.0/Design/Microsoft.Xaml.Interactivity.Design.dll",
+        "lib/uap10.0/Microsoft.Xaml.Interactions.dll",
+        "lib/uap10.0/Microsoft.Xaml.Interactions.pri",
+        "lib/uap10.0/Microsoft.Xaml.Interactions.xml",
+        "lib/uap10.0/Microsoft.Xaml.Interactivity.dll",
+        "lib/uap10.0/Microsoft.Xaml.Interactivity.pri",
+        "lib/uap10.0/Microsoft.Xaml.Interactivity.xml"
+      ]
+    },
     "MvvmCross/4.2.3": {
       "sha512": "Bud3iNzukMM9ZDiomB+nc+Sd+QXMg+Q4q8+1O0ZefO/rnBnCE4oyGeyP2/4n8wImVJvKEk8rY8PSTGtUG9RMUA==",
       "type": "package",
@@ -12632,6 +12878,55 @@
         "lib/wpa81/MvvmCross.Platform.WindowsCommon.pri",
         "lib/wpa81/MvvmCross.Platform.dll",
         "lib/wpa81/MvvmCross.Platform.dll.mdb"
+      ]
+    },
+    "MvvmCross.Plugin.Location/4.2.3": {
+      "sha512": "5ICbn6mbuzezrTTPGW0tx8Nm1u50U5QkgQZ4V6hL71k7YDZjzc/mXYT0fEn86ImE3UcJ9sEl39la1+FYk2B7jQ==",
+      "type": "package",
+      "files": [
+        "MvvmCross.Plugin.Location.4.2.3.nupkg.sha512",
+        "MvvmCross.Plugin.Location.nuspec",
+        "content/MonoAndroid/Bootstrap/LocationPluginBootstrap.cs.pp",
+        "content/Xamarin.iOS10/Bootstrap/LocationPluginBootstrap.cs.pp",
+        "content/net45/Bootstrap/LocationPluginBootstrap.cs.pp",
+        "content/netcore45/Bootstrap/LocationPluginBootstrap.cs.pp",
+        "content/win81/Bootstrap/LocationPluginBootstrap.cs.pp",
+        "content/wp8/Bootstrap/LocationPluginBootstrap.cs.pp",
+        "content/wpa81/Bootstrap/LocationPluginBootstrap.cs.pp",
+        "lib/MonoAndroid/MvvmCross.Plugins.Location.Droid.dll",
+        "lib/MonoAndroid/MvvmCross.Plugins.Location.dll",
+        "lib/MonoAndroid/MvvmCross.Plugins.Location.dll.mdb",
+        "lib/Xamarin.Mac20/MvvmCross.Plugins.Location.dll",
+        "lib/Xamarin.Mac20/MvvmCross.Plugins.Location.dll.mdb",
+        "lib/Xamarin.iOS10/MvvmCross.Plugins.Location.dll",
+        "lib/Xamarin.iOS10/MvvmCross.Plugins.Location.dll.mdb",
+        "lib/Xamarin.iOS10/MvvmCross.Plugins.Location.iOS.dll",
+        "lib/dotnet/MvvmCross.Plugins.Location.dll",
+        "lib/dotnet/MvvmCross.Plugins.Location.dll.mdb",
+        "lib/net45/MvvmCross.Plugins.Location.Wpf.dll",
+        "lib/net45/MvvmCross.Plugins.Location.dll",
+        "lib/net45/MvvmCross.Plugins.Location.dll.mdb",
+        "lib/netcore45/MvvmCross.Plugins.Location.WindowsStore.dll",
+        "lib/netcore45/MvvmCross.Plugins.Location.WindowsStore.pri",
+        "lib/netcore45/MvvmCross.Plugins.Location.dll",
+        "lib/netcore45/MvvmCross.Plugins.Location.dll.mdb",
+        "lib/portable-net45+win+wpa81+wp80/MvvmCross.Plugins.Location.dll",
+        "lib/portable-net45+win+wpa81+wp80/MvvmCross.Plugins.Location.dll.mdb",
+        "lib/portable-win81+wpa81/MvvmCross.Plugins.Location.WindowsCommon.dll",
+        "lib/portable-win81+wpa81/MvvmCross.Plugins.Location.WindowsCommon.pri",
+        "lib/portable-win81+wpa81/MvvmCross.Plugins.Location.dll",
+        "lib/portable-win81+wpa81/MvvmCross.Plugins.Location.dll.mdb",
+        "lib/win81/MvvmCross.Plugins.Location.WindowsCommon.dll",
+        "lib/win81/MvvmCross.Plugins.Location.WindowsCommon.pri",
+        "lib/win81/MvvmCross.Plugins.Location.dll",
+        "lib/win81/MvvmCross.Plugins.Location.dll.mdb",
+        "lib/wp8/MvvmCross.Plugins.Location.WindowsPhone.dll",
+        "lib/wp8/MvvmCross.Plugins.Location.dll",
+        "lib/wp8/MvvmCross.Plugins.Location.dll.mdb",
+        "lib/wpa81/MvvmCross.Plugins.Location.WindowsCommon.dll",
+        "lib/wpa81/MvvmCross.Plugins.Location.WindowsCommon.pri",
+        "lib/wpa81/MvvmCross.Plugins.Location.dll",
+        "lib/wpa81/MvvmCross.Plugins.Location.dll.mdb"
       ]
     },
     "MvvmCross.StarterPack/4.2.3": {
@@ -15212,8 +15507,11 @@
   },
   "projectFileDependencyGroups": {
     "": [
+      "HockeySDK.UWP >= 4.0.0",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 5.0.0",
+      "Microsoft.Xaml.Behaviors.Uwp.Managed >= 1.1.0",
       "MvvmCross >= 4.2.3",
+      "MvvmCross.Plugin.Location >= 4.2.3",
       "MvvmCross.StarterPack >= 4.2.3"
     ],
     "UAP,Version=v10.0": []
