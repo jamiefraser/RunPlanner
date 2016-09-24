@@ -1,5 +1,6 @@
 using MvvmCross.Platform.IoC;
-
+using System.Threading;
+using System;
 namespace RunPlanner.Core
 {
     public class App : MvvmCross.Core.ViewModels.MvxApplication
@@ -12,6 +13,7 @@ namespace RunPlanner.Core
                 .RegisterAsLazySingleton();
 
             RegisterAppStart<ViewModels.FirstViewModel>();
+            Properties.Resources.Culture = System.Globalization.CultureInfo.CurrentUICulture;
         }
     }
 }
