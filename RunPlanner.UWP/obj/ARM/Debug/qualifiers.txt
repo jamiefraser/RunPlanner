@@ -5,4 +5,5 @@ Scale=150
 Scale=125
 Scale=100
 TargetSize=24
+Language=EN-US
 Language=FR-CA

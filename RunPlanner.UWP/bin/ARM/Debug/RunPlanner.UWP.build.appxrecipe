@@ -10,26 +10,41 @@
     <PackageArchitecture>arm</PackageArchitecture>
     <PackageIdentityName>39a58d0a-6b4d-4aa1-bf3f-43de6528c80c</PackageIdentityName>
     <PackageIdentityPublisher>CN=E1FBDB92-D514-47AF-9B34-1C53C1DD8197</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\source\RunPlanner\RunPlanner.UWP\obj\ARM\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>c:\Source\RunPlanner\RunPlanner.UWP\obj\ARM\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\source\RunPlanner\RunPlanner.UWP\bin\ARM\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="c:\Source\RunPlanner\RunPlanner.UWP\bin\ARM\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\source\RunPlanner\RunPlanner.UWP\bin\ARM\Debug\RunPlanner.UWP.exe">
+    <AppxPackagedFile Include="c:\Source\RunPlanner\RunPlanner.UWP\bin\ARM\Debug\RunPlanner.UWP.exe">
       <PackagePath>entrypoint\RunPlanner.UWP.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jfraser\.nuget\packages\HockeySDK.UWP\4.0.0\lib\uap10.0\Microsoft.HockeyApp.Kit.dll">
       <PackagePath>Microsoft.HockeyApp.Kit.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jfraser\.nuget\packages\Microsoft.Azure.Mobile.Client\2.0.0\lib\netcore45\Microsoft.WindowsAzure.Mobile.Ext.dll">
+      <PackagePath>Microsoft.WindowsAzure.Mobile.Ext.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jfraser\.nuget\packages\Microsoft.Azure.Mobile.Client\2.0.0\lib\netcore45\Microsoft.WindowsAzure.Mobile.dll">
+      <PackagePath>Microsoft.WindowsAzure.Mobile.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jfraser\.nuget\packages\Microsoft.Azure.Mobile.Client.SQLiteStore\2.1.1\lib\portable-win+net45+wp8+wpa81+monotouch+monoandroid\Microsoft.WindowsAzure.Mobile.SQLiteStore.dll">
+      <PackagePath>Microsoft.WindowsAzure.Mobile.SQLiteStore.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jfraser\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jfraser\.nuget\packages\Microsoft.Net.Http\2.2.29\lib\win8\System.Net.Http.Extensions.dll">
+      <PackagePath>System.Net.Http.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jfraser\.nuget\packages\Microsoft.Net.Http\2.2.29\lib\win8\System.Net.Http.Primitives.dll">
+      <PackagePath>System.Net.Http.Primitives.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jfraser\.nuget\packages\Microsoft.NETCore.Portable.Compatibility\1.0.0\lib\netcore50\System.ComponentModel.DataAnnotations.dll">
       <PackagePath>System.ComponentModel.DataAnnotations.dll</PackagePath>
@@ -102,6 +117,12 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jfraser\.nuget\packages\MvvmCross.Plugin.Location\4.2.3\lib\win81\MvvmCross.Plugins.Location.dll">
       <PackagePath>MvvmCross.Plugins.Location.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jfraser\.nuget\packages\Newtonsoft.Json\6.0.4\lib\netcore45\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jfraser\.nuget\packages\SQLitePCL\3.8.7.2\lib\netcore451\SQLitePCL.dll">
+      <PackagePath>SQLitePCL.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jfraser\.nuget\packages\System.AppContext\4.0.0\lib\netcore50\System.AppContext.dll">
       <PackagePath>System.AppContext.dll</PackagePath>
@@ -367,128 +388,131 @@
     <AppxPackagedFile Include="C:\Users\jfraser\.nuget\packages\System.Xml.XmlSerializer\4.0.10\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\source\RunPlanner\RunPlanner.Core\bin\Debug\RunPlanner.Core.dll">
+    <AppxPackagedFile Include="c:\Source\RunPlanner\RunPlanner.Core\bin\Debug\RunPlanner.Core.dll">
       <PackagePath>RunPlanner.Core.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\source\RunPlanner\RunPlanner.Core\bin\Debug\fr-CA\RunPlanner.Core.resources.dll">
+    <AppxPackagedFile Include="c:\Source\RunPlanner\RunPlanner.Core\bin\Debug\fr-CA\RunPlanner.Core.resources.dll">
       <PackagePath>fr-CA\RunPlanner.Core.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\source\RunPlanner\RunPlanner.UWP\Assets\location.png">
+    <AppxPackagedFile Include="C:\Users\jfraser\.nuget\packages\SQLitePCL\3.8.7.2\build\netcore451\SQLitePCL.Ext.dll">
+      <PackagePath>SQLitePCL.Ext.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Source\RunPlanner\RunPlanner.UWP\Assets\location.png">
       <PackagePath>Assets\location.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\source\RunPlanner\RunPlanner.UWP\Assets\runner-128.png">
+    <AppxPackagedFile Include="c:\Source\RunPlanner\RunPlanner.UWP\Assets\runner-128.png">
       <PackagePath>Assets\runner-128.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\source\RunPlanner\RunPlanner.UWP\Assets\runner-32.png">
+    <AppxPackagedFile Include="c:\Source\RunPlanner\RunPlanner.UWP\Assets\runner-32.png">
       <PackagePath>Assets\runner-32.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\source\RunPlanner\RunPlanner.UWP\Assets\runner-64.png">
+    <AppxPackagedFile Include="c:\Source\RunPlanner\RunPlanner.UWP\Assets\runner-64.png">
       <PackagePath>Assets\runner-64.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\source\RunPlanner\RunPlanner.UWP\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="c:\Source\RunPlanner\RunPlanner.UWP\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\source\RunPlanner\RunPlanner.UWP\Assets\SplashScreen.scale-125.png">
+    <AppxPackagedFile Include="c:\Source\RunPlanner\RunPlanner.UWP\Assets\SplashScreen.scale-125.png">
       <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\source\RunPlanner\RunPlanner.UWP\Assets\SplashScreen.scale-150.png">
+    <AppxPackagedFile Include="c:\Source\RunPlanner\RunPlanner.UWP\Assets\SplashScreen.scale-150.png">
       <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\source\RunPlanner\RunPlanner.UWP\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="c:\Source\RunPlanner\RunPlanner.UWP\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\source\RunPlanner\RunPlanner.UWP\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="c:\Source\RunPlanner\RunPlanner.UWP\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\source\RunPlanner\RunPlanner.UWP\Assets\tght_icon.png">
+    <AppxPackagedFile Include="c:\Source\RunPlanner\RunPlanner.UWP\Assets\tght_icon.png">
       <PackagePath>Assets\tght_icon.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\source\RunPlanner\RunPlanner.UWP\Assets\tght_icon.scale-125.png">
+    <AppxPackagedFile Include="c:\Source\RunPlanner\RunPlanner.UWP\Assets\tght_icon.scale-125.png">
       <PackagePath>Assets\tght_icon.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\source\RunPlanner\RunPlanner.UWP\Assets\tght_icon.scale-150.png">
+    <AppxPackagedFile Include="c:\Source\RunPlanner\RunPlanner.UWP\Assets\tght_icon.scale-150.png">
       <PackagePath>Assets\tght_icon.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\source\RunPlanner\RunPlanner.UWP\Assets\tght_icon.scale-200.png">
+    <AppxPackagedFile Include="c:\Source\RunPlanner\RunPlanner.UWP\Assets\tght_icon.scale-200.png">
       <PackagePath>Assets\tght_icon.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\source\RunPlanner\RunPlanner.UWP\Assets\tght_icon.scale-400.png">
+    <AppxPackagedFile Include="c:\Source\RunPlanner\RunPlanner.UWP\Assets\tght_icon.scale-400.png">
       <PackagePath>Assets\tght_icon.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\source\RunPlanner\RunPlanner.UWP\Assets\tght_icon_142.png">
+    <AppxPackagedFile Include="c:\Source\RunPlanner\RunPlanner.UWP\Assets\tght_icon_142.png">
       <PackagePath>Assets\tght_icon_142.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\source\RunPlanner\RunPlanner.UWP\Assets\tght_icon_284.scale-100.png">
+    <AppxPackagedFile Include="c:\Source\RunPlanner\RunPlanner.UWP\Assets\tght_icon_284.scale-100.png">
       <PackagePath>Assets\tght_icon_284.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\source\RunPlanner\RunPlanner.UWP\Assets\tght_icon_284.scale-125.png">
+    <AppxPackagedFile Include="c:\Source\RunPlanner\RunPlanner.UWP\Assets\tght_icon_284.scale-125.png">
       <PackagePath>Assets\tght_icon_284.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\source\RunPlanner\RunPlanner.UWP\Assets\tght_icon_284.scale-150.png">
+    <AppxPackagedFile Include="c:\Source\RunPlanner\RunPlanner.UWP\Assets\tght_icon_284.scale-150.png">
       <PackagePath>Assets\tght_icon_284.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\source\RunPlanner\RunPlanner.UWP\Assets\tght_icon_284.scale-200.png">
+    <AppxPackagedFile Include="c:\Source\RunPlanner\RunPlanner.UWP\Assets\tght_icon_284.scale-200.png">
       <PackagePath>Assets\tght_icon_284.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\source\RunPlanner\RunPlanner.UWP\Assets\tght_icon_284.scale-400.png">
+    <AppxPackagedFile Include="c:\Source\RunPlanner\RunPlanner.UWP\Assets\tght_icon_284.scale-400.png">
       <PackagePath>Assets\tght_icon_284.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\source\RunPlanner\RunPlanner.UWP\Assets\tght_splash_100.png">
+    <AppxPackagedFile Include="c:\Source\RunPlanner\RunPlanner.UWP\Assets\tght_splash_100.png">
       <PackagePath>Assets\tght_splash_100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\source\RunPlanner\RunPlanner.UWP\Assets\tght_splash_125.png">
+    <AppxPackagedFile Include="c:\Source\RunPlanner\RunPlanner.UWP\Assets\tght_splash_125.png">
       <PackagePath>Assets\tght_splash_125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\source\RunPlanner\RunPlanner.UWP\Assets\tght_splash_150.png">
+    <AppxPackagedFile Include="c:\Source\RunPlanner\RunPlanner.UWP\Assets\tght_splash_150.png">
       <PackagePath>Assets\tght_splash_150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\source\RunPlanner\RunPlanner.UWP\Assets\tght_splash_200.png">
+    <AppxPackagedFile Include="c:\Source\RunPlanner\RunPlanner.UWP\Assets\tght_splash_200.png">
       <PackagePath>Assets\tght_splash_200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\source\RunPlanner\RunPlanner.UWP\Assets\tght_splash_400.png">
+    <AppxPackagedFile Include="c:\Source\RunPlanner\RunPlanner.UWP\Assets\tght_splash_400.png">
       <PackagePath>Assets\tght_splash_400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\source\RunPlanner\RunPlanner.UWP\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="c:\Source\RunPlanner\RunPlanner.UWP\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\source\RunPlanner\RunPlanner.UWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="c:\Source\RunPlanner\RunPlanner.UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\source\RunPlanner\RunPlanner.UWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="c:\Source\RunPlanner\RunPlanner.UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\source\RunPlanner\RunPlanner.UWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="c:\Source\RunPlanner\RunPlanner.UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\source\RunPlanner\RunPlanner.UWP\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="c:\Source\RunPlanner\RunPlanner.UWP\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\source\RunPlanner\RunPlanner.UWP\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="c:\Source\RunPlanner\RunPlanner.UWP\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\source\RunPlanner\RunPlanner.UWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="c:\Source\RunPlanner\RunPlanner.UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\source\RunPlanner\RunPlanner.UWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="c:\Source\RunPlanner\RunPlanner.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\source\RunPlanner\RunPlanner.UWP\bin\ARM\Debug\RunPlanner.UWP.xr.xml">
+    <AppxPackagedFile Include="c:\Source\RunPlanner\RunPlanner.UWP\bin\ARM\Debug\RunPlanner.UWP.xr.xml">
       <PackagePath>RunPlanner.UWP.xr.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
@@ -500,10 +524,10 @@
     <AppxPackagedFile Include="C:\Users\jfraser\.nuget\packages\MvvmCross.Core\4.2.3\lib\uap\MvvmCross.WindowsUWP\Properties\MvvmCross.WindowsUWP.rd.xml">
       <PackagePath>MvvmCross.WindowsUWP\Properties\MvvmCross.WindowsUWP.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\source\RunPlanner\RunPlanner.UWP\bin\ARM\Debug\resources.pri">
+    <AppxPackagedFile Include="c:\Source\RunPlanner\RunPlanner.UWP\bin\ARM\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\source\RunPlanner\RunPlanner.UWP\bin\ARM\Debug\Core\RunPlanner.UWP.exe">
+    <AppxPackagedFile Include="c:\Source\RunPlanner\RunPlanner.UWP\bin\ARM\Debug\Core\RunPlanner.UWP.exe">
       <PackagePath>RunPlanner.UWP.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
