@@ -1,22 +1,15 @@
-﻿<Properties StartupConfiguration="{274AF15A-9065-49A0-AFF6-DEAF4A1D54ED}|Default">
+﻿<Properties StartupConfiguration="{274AF15A-9065-49A0-AFF6-DEAF4A1D54ED}|Default" GitUserInfo="UsingMD">
   <MonoDevelop.Ide.ItemProperties.RunPlanner.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.DDC10580-D2EA-4DF7-93B5-618DF7F11F2D" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="RunPlanner.sln">
+    <Files>
+      <File FileName="RunPlanner.iOS Status" />
+      <File FileName="RunPlanner Status" />
+      <File FileName="RunPlanner.sln" Line="1" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="RunPlanner" expanded="True">
-            <Node name="RunPlanner.Core" expanded="True">
-              <Node name="Entities" expanded="True" />
-              <Node name="Properties" expanded="True" />
-              <Node name="ViewModels" expanded="True" />
-            </Node>
-            <Node name="RunPlanner.iOS" expanded="True" selected="True">
-              <Node name="Views" expanded="True" />
-            </Node>
-            <Node name="RunPlanner.UWP" expanded="True">
-              <Node name="App.xaml" expanded="True" />
-            </Node>
-          </Node>
+          <Node name="RunPlanner" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
